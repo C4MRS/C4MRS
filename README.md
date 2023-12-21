@@ -13,8 +13,8 @@ Just a student trying things and hoping they work.
 * ⚡  If I'm not coding, I'm hitting the gym
 
 <a href="https://www.github.com/C4MRS" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/C4MRS?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-
+src="https://img.shields.io/github/followers/C4MRS?logo=github&style=for-the-badge&color=0891b2&labelColor=555555" /></a>
+<a href="https://www.github.com/C4MRS" target="_blank" rel="noreferrer">![](https://komarev.com/ghpvc/?username=your-github-username&style=for-the-badge&color=0891b2)</a>
 ### Skills
 
 
