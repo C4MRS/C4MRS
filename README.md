@@ -4,8 +4,8 @@ Hi! ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-91
 Just a student trying things and hoping they work.
 
 * 🌍  I'm based in somewhere near Naples
-* 🖥️  See my portfolio on [my website](http://c4mrs.github.io)
-* ✉️  You can contact me via [email](mailto:camrs.muster897@aleeas.com)
+* 🖥️  See my portfolio on [my website](https://raffaelesulipano.it)
+* ✉️  You can contact me via [email](https://mailhide.io/e/zfKVZgMt)
 * 🧠  I'm learning Docker & Kubernetes
 * ⚡  If I'm not coding, I'm hitting the gym
 <div align="center">
@@ -66,7 +66,7 @@ Just a student trying things and hoping they work.
 ###
 
 <div align="center">
-  <a href="mailto:camrs.muster897@aleeas.com" target="_blank">
+  <a href="https://mailhide.io/e/zfKVZgMt" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
   <a href="https://www.linkedin.com/in/raffsu" target="_blank">
