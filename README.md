@@ -4,8 +4,8 @@ Hi! ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-91
 Just a student trying things and hoping they work.
 
 * 🌍  I'm based in somewhere near Naples
-* 🖥️  See my portfolio at [my website](http://c4mrs.github.io)
-* ✉️  You can contact me at [my email](mailto:camrs.muster897@aleeas.com)
+* 🖥️  See my portfolio on [my website](http://c4mrs.github.io)
+* ✉️  You can contact me via [email](mailto:camrs.muster897@aleeas.com)
 * 🧠  I'm learning Docker & Kubernetes
 * ⚡  If I'm not coding, I'm hitting the gym
 <div align="center">
