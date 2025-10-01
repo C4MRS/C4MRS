@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: output
 
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
@@ -24,15 +26,15 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Setup git for push
+      - name: Setup git to push
         run: git remote set-url origin https://$SNAKE@github.com/${{ github.repository }}.git
         env:
-          PAT_TOKEN: ${{ secrets.snake }}
-    
+          SNAKE: ${{ secrets.snake }}
+
       - name: Commit & push generated images
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add dist/
           git diff --cached --quiet || git commit -m "Update GitHub Snake"
-          git push
+          git push origin output
