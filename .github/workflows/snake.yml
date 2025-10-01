@@ -27,7 +27,7 @@ jobs:
       - name: Setup git for push
         run: git remote set-url origin https://$PAT_TOKEN@github.com/${{ github.repository }}.git
         env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          PAT_TOKEN: ${{ secrets.snake }}
     
       - name: Commit & push generated images
         run: |
