@@ -5,8 +5,7 @@ on:
     branches:
       - main
   schedule:
-    # Ogni 12 ore
-    - cron: '0 */12 * * *'
+    - cron: '0 */12 * * *'  # ogni 12 ore
 
 jobs:
   generate-snake:
@@ -24,6 +23,11 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Setup git for push
+        run: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit & push generated images
         run: |
