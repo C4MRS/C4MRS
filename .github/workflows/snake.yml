@@ -25,7 +25,7 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Setup git for push
-        run: git remote set-url origin https://$PAT_TOKEN@github.com/${{ github.repository }}.git
+        run: git remote set-url origin https://$SNAKE@github.com/${{ github.repository }}.git
         env:
           PAT_TOKEN: ${{ secrets.snake }}
     
