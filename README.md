@@ -16,10 +16,10 @@ Just a student trying things and hoping they work.
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=C4MRS&hide_title=true&hide_rank=true&show_icons=true&theme=codeSTACKr&locale=en" height="150" alt="stats graph"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=C4MRS&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&hide_border=false" height="150" alt="languages graph"  />
-</div>
+<picture decoding="async" loading="lazy">
+  <img alt="github stats" src="https://pixel-profile.vercel.app/api/github-stats?username=C4MRS&screen_effect=true&dithering=true&include_all_commits=true&pixelate_avatar=true&theme=road_trip&theme=road_trip&color=%23ffffffFF">
+</picture>
+
 
 ###
 
@@ -90,12 +90,11 @@ Just a student trying things and hoping they work.
   </a>
 </div>
 
-###
+
+<div align="center">
+  <img src="https://github-language-stats-card-main.vercel.app/api/card?username=C4MRS&theme=night-owl" alt="languages graph"  />
+</div>
 
 <br clear="both">
-
 <img src="https://raw.githubusercontent.com/C4MRS/C4MRS/output/snake.svg" alt="Snake animation" />
-
-
-###
 
